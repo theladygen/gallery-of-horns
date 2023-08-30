@@ -1,6 +1,6 @@
 # Gallery of Horns
 
-project description goes here.
+This site contains a gallery of horned beasts. You can pick your favorite beast!
 
 ## Getting Started
 
@@ -27,10 +27,6 @@ below.
     cd PROJECT
     npm install
 
-### Configure app
-
-Any environment configuration steps.
-
 ### Start & watch
 
     npm run dev
@@ -40,12 +36,24 @@ Any environment configuration steps.
 
     npm run build
 
-## Architecture
-
 ### Languages & tools
 
 ## Change Log
 
-## Collaborators
+Number and name of feature: Feature #1: Display Images
+Estimate of time needed to complete: 30 mins
+Start time: 5:55pm
+Finish time: 6pm
+Actual time needed to complete: 5 mins
 
-List collaborators here.
+Number and name of feature: Feature #2: Allow Users to Favorite Individual Beasts
+Estimate of time needed to complete: _____
+Start time: _____
+Finish time: _____
+Actual time needed to complete: _____
+
+Number and name of feature: Feature 3: Bootstrap
+Estimate of time needed to complete: _____
+Start time: _____
+Finish time: _____
+Actual time needed to complete: _____
