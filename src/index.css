@@ -33,7 +33,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Yusei Magic', sans-serif;
   justify-content: center;
-  font-size:x-large;
 }
 
 header{
@@ -41,6 +40,8 @@ header{
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   padding: 0.5em;
   border: 10px solid #fefae0;
   font-size: 4.2em;
@@ -49,8 +50,7 @@ h1 {
 }
 
 .beast {
-  display: flex;
-  justify-content: center;
+  margin: auto;
   border: 10px solid #fefae0;
   background-color: #cdb4db;
 }

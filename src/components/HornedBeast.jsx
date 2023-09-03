@@ -20,8 +20,7 @@ class HornedBeast extends React.Component {
     
     return (
       <>
-      <section className="beast">
-        <Card border="light" bg="info" style={{ width: '30rem'}}>
+        <Card className="beast p-1 h-100" border="light" bg="info" style={{ width: '80%'}}>
           <Card.Img 
             variant="top" 
             src={this.props.imageUrl}
@@ -29,11 +28,11 @@ class HornedBeast extends React.Component {
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.description}</Card.Text>
+            <Card.Text>This is a {this.props.horns} horned beast!</Card.Text>
             <Button onClick={this.handleFavorites}>Favorite</Button>
            <p>💖 {this.state.favorites}</p>
           </Card.Body>
          </Card>
-      </section>
       </>
     );
   }
