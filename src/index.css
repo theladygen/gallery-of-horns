@@ -24,18 +24,36 @@ a:hover {
 }
 
 body {
+  background-color: #ffc8dd;
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Yusei Magic', sans-serif;
+  justify-content: center;
+  font-size:x-large;
+}
+
+header{
+  background-color: #645591e3;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  padding: 0.5em;
+  border: 10px solid #fefae0;
+  font-size: 4.2em;
+  line-height: 1;
+  color: #fefae0
 }
 
+.beast {
+  display: flex;
+  justify-content: center;
+  border: 10px solid #fefae0;
+  background-color: #cdb4db;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;

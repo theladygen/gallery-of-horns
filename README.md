@@ -1,6 +1,6 @@
 # Gallery of Horns
 
-This site contains a gallery of horned beasts. You can pick your favorite beast!
+This site contains a gallery of horned beasts of which can pick your favorite!
 
 ## Getting Started
 
@@ -55,5 +55,5 @@ Actual time needed to complete: 1.75 hrs
 Number and name of feature: Feature 3: Bootstrap
 Estimate of time needed to complete: 2 hrs
 Start time: 4:45pm
-Finish time: _____
-Actual time needed to complete: _____
+Finish time: 5:45pm
+Actual time needed to complete: 1 hr

@@ -19,33 +19,21 @@ class HornedBeast extends React.Component {
   render() {
     
     return (
-      // <>
-      // <section className="beast">
-      //   <Card style={{ width: '18rem'}}>
-      //     <p>{this.state.favorites}</p>
-      //     <Card.Img 
-      //       variant="top" 
-      //       src={this.props.imageURL}
-      //       alt={this.props.title}/>
-      //     <Card.Body>
-      //       <Card.Title>{this.props.title}</Card.Title>
-      //       <Card.Text>{this.props.description}</Card.Text>
-      //       <Button onClick={this.handleFavorites}>Favorite</Button>
-      //     </Card.Body>
-      // </Card>
-      // </section>
-      // </>
       <>
-        <section>
-          <h2>{this.props.title}</h2>
-          <img 
-          src={this.props.imageUrl} 
-          alt={this.props.description} 
-          title={this.props.title}/>
-          <p>{this.props.description}</p>
-          <Button onClick={this.handleFavorites}>Favorites</Button>
-          <p>💖 {this.state.favorites}</p>
-        </section>
+      <section className="beast">
+        <Card border="light" bg="info" style={{ width: '30rem'}}>
+          <Card.Img 
+            variant="top" 
+            src={this.props.imageUrl}
+            alt={this.props.title}/>
+          <Card.Body>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>{this.props.description}</Card.Text>
+            <Button onClick={this.handleFavorites}>Favorite</Button>
+           <p>💖 {this.state.favorites}</p>
+          </Card.Body>
+         </Card>
+      </section>
       </>
     );
   }
