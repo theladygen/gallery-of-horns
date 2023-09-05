@@ -48,6 +48,14 @@ h1 {
   line-height: 1;
   color: #fefae0
 }
+.selected-beast-modal img {
+  max-width: 80%;
+}
+
+.selected-beast-modal .modal-body {
+  text-align: center;
+  background-color: #cdb4db;
+}
 
 .beast {
   margin: auto;
