@@ -22,7 +22,7 @@ class HornedBeast extends React.Component {
       <>
         <Card className="beast p-1 h-100" border="light" bg="info" style={{ width: '80%'}}>
           <Card.Img 
-            onClick={this.handleFavorites}
+            onClick={this.props.selectHandler}
             variant="top" 
             src={this.props.imageUrl}
             alt={this.props.title}/>
