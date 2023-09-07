@@ -35,18 +35,26 @@ body {
   justify-content: center;
 }
 
-header{
+header {
   background-color: #645591e3;
+  border: 10px solid #fefae0;
+
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  border-top: 10px solid #fefae0;
+  background-color: #cdb4db;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   padding: 0.5em;
-  border: 10px solid #fefae0;
   font-size: 4.2em;
   line-height: 1;
-  color: #fefae0
+  color: #fefae0;
 }
 .selected-beast-modal img {
   max-width: 80%;
@@ -92,4 +100,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+Footer {
+  text-align: right;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  background-color: #cdb4db;
+  border: 10px solid #fefae0;
 }

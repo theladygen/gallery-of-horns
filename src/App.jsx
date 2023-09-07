@@ -18,7 +18,7 @@ class App extends React.Component {
   deselectBeast() {
     this.setState({ selectedBeast: null });
   }
-  
+
   render() {
     return (
       <>

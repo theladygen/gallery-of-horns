@@ -3,6 +3,7 @@ import HornedBeast from './HornedBeast.jsx';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 class Gallery extends React.Component {
   render() {
     return (
