@@ -38,13 +38,10 @@ body {
 header {
   background-color: #645591e3;
   border: 10px solid #fefae0;
-
 }
 
-.dropdown {
-  display: flex;
-  justify-content: center;
-  border-top: 10px solid #fefae0;
+#dropdown {
+  text-align: center;
   background-color: #cdb4db;
 }
 
